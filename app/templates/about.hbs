@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+  <div class="col-md-8">
+      <h1 class="page-header">Repositories</h1>
+        <h2><a href="https://github.com/aFraley/tiny-django">Tiny Django</a></h2>
+          <p>A stripped down Django project template.
+          </p>
+          <h3>Dependencies</h3>
+          <dl>
+            <dt>
+              <a href="https://www.djangoproject.com/">Django</a>
+            </dt>
+        </dl>
+        <h3>To get started</h3>
+          <p>Using a bash console:</p>
+        <ol type="1">
+          <li><code>$ mkdir my_project</code></li>
+          <li><code>$ cd my_project</code></li>
+          <li><code>$ python3 -m virtualenv venv</code></li>
+          <li><code>$ . venv/bin/activate</code></li>
+          <li><code>$ pip install django</code></li>
+          <li><code>$ django-admin startproject --template=https://github.com/aFraley/tiny-django/archive/master.zip myapp</code></li>
+        </ol>
+        <p>First, we create a directory to work in; then, we create a python virtual environment after changing to the
+        created directory. We activate the virtual environment and install Django. Now, we start a new project, but
+        we tell Django to use our stripped down version as a template to setup our project.
+        </p>
+        <p>This stripped down version is good for smaller projects, but it also helps us get a feel for what Django
+        does, how it works.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <div class="well">
+          <h4>Git Hub Repositories</h4>
+          <ul>
+            <li>
+              <a href="https://github.com/aFraley/tiny-django">Tiny Django</a>
+              <p>A stripped down Django project template.</p>
+            </li>
+            <li>
+              <a href="https://github.com/aFraley/react-gulpfile">React Gulpfile</a>
+              <p>A Gulpfile to compile your React project to the desired
+                directory.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+</div>
+{{outlet}}
