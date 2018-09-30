@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-    message: 'I am a Software Engineer at Lofty Labs.',
+    title: 'Software Engineer',
     technology: [
         'Python and Django',
         'Vue',
